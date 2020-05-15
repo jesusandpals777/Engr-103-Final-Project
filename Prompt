@@ -1,0 +1,48 @@
+Final Project
+
+Write a random dice program in C++
+
+requirements:
+-user selects number of dices
+-user can select up to 7 dices (more than 7 dices is optional)
+-user can reselect number of dices in the middle of a game
+-user can exit the program when they want
+
+Note:
+You are required to design your own random number generator.
+
+Example: (below is an example of how the program can run)
+
+-Program starts-
+
+Press 1 to select number of dices, Press 2 to escape program: 1
+
+How many dices (up to 7) would you like to use? 4
+
+Press 1 to roll, Press 2 to restart program: 1
+2
+4
+3
+6
+
+Press 1 to roll, Press 2 to restart program: 1
+1
+1
+4
+2
+
+Press 1 to roll, Press 2 to restart program: 2
+
+Press 1 to select number of dices, Press 2 to escape program: 1
+
+How many dices (up to 7) would you like to use? 2
+
+Press 1 to roll, Press 2 to restart program: 1
+5
+6
+
+Press 1 to roll, Press 2 to restart program: 2
+
+Press 1 to select number of dices, Press 2 to escape program: 2
+
+-Return 0 - Program closes-
